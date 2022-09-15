@@ -1,0 +1,27 @@
+header{
+background-color: orange;
+}
+h3{
+    background-color: orange;
+    border-radius: 3px;
+    width: 306px;
+}
+.container{
+max-width: 30%;
+justify-content: space-around;
+margin: auto;
+display:flex;
+display: flex;
+border: 2px solid orange;
+border-radius: 10px;
+padding-top: 10px;
+max-height: 50px;
+padding-top: 180px;
+padding-left: 180px;
+}
+.container2{
+    
+}
+.input{
+min-width: 5px;
+}
