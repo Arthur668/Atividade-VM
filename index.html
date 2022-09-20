@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Velocidade Média</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-   <header>
-       <H1>Velocidade Média</H1>
-   </header>
-    <div>
-        <footer>
-            <ul>
-                <li>SENAI SC</li>
-                <li>Curos de Desenvolvimento de Sistemas</li>
-                <li>Lógica de Programção</li>
-                <li>Arthur Rocha lima</li>
-            </ul>
-        </footer>
-    </div>
+    <header>
+        <H1>Velocidade Média</H1>
+    </header>
+       
     <div class="container">
         <h3>Cálculo</h3>
-        <input id="x" type="Number" placeholder="informe o valor do deslocamento">
-        <input id="y" type="Number" placeholder="Informe o intervalo de tempo">  
-    
-    <div class="container2">
-        <button id="Calcular" onclick="calc()">calcular></button>
-        <button id="Limpar">Limpar></button>
+        <input id="x" type="number" placeholder="informe o valor do deslocamento">
+        <input id="y" type="number" placeholder="Informe o intervalo de tempo">
+
+        <div class="container2">
+            <button id="calcular" >calcular</button>
+            <button id="cimpar">Limpar</button>
+
+        </div>
+        <textarea  id="velocidadeMedia"  rows="0" readonly></textarea>
     </div>
+    <div class="container1">
+        <h3>Resultado</h3>
+            <textarea  id="velocidades"  rows="10" readonly></textarea>
     </div>
-    
+    <footer>
+        <ul>
+            <li>SENAI SC</li>
+            <li>Curos de Desenvolvimento de Sistemas</li>
+            <li>Lógica de Programção</li>
+            <li>Arthur Rocha lima</li>
+        </ul>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
