@@ -1,27 +1,68 @@
-header{
-background-color: orange;
-}
-h3{
+header {
     background-color: orange;
-    border-radius: 3px;
-    width: 306px;
 }
-.container{
-max-width: 30%;
-justify-content: space-around;
-margin: auto;
-display:flex;
-display: flex;
-border: 2px solid orange;
-border-radius: 10px;
-padding-top: 10px;
-max-height: 50px;
-padding-top: 180px;
-padding-left: 180px;
+h1{
+    border: 2px solid orange;
+    border-radius: 10px;
 }
-.container2{
+h3 {
+    background-color: orange;
+    color: #9c8e10;
+    border-radius: 10px;
+    padding: 5px
+    
+
+}
+
+.container {
+    margin: auto;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+
+.container input, textarea, div {
+    padding: 3px;
+    margin: 3px;
+}
+
+.container input{
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+textarea{
+    background-color: orange;
+    border:2px solid orange;
+    border-radius: 10px;
     
 }
-.input{
-min-width: 5px;
+button{
+    background-color: orange;
+    border-radius: 10px;
+    border:2px solid orange
 }
+.container1{
+        margin: auto;
+        max-width: 40%;
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid orange;
+        border-radius: 10px;
+        padding: 4px;
+       
+    }
+    .container3 {
+        
+        
+        display: flex;
+        flex-direction: column;
+        border: 2px solid orange;
+        border-radius: 10px;
+        padding: 20px;
+       
+    }
